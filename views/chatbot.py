@@ -20,9 +20,10 @@ st.markdown(custom_css, unsafe_allow_html=True)
 def response_generator():
     response = random.choice(
         [
-            "Aimed is a rapidly growing software startup specializing in artificial intelligence (AI) solutions for the healthcare industry. Partner companies founded in 2021, the company has developed a proprietary AI healthcare platform that enhances diagnostic improves patients outcome by optimising treatment plans and predicting potential health issues before comes to critical stages."
-            "Artificial Intelligence (AI) and modeling have emerged as powerful tools reshaping numerous sectors in our increasingly digital world, explores the wide-ranging applications of AI-powered modeling across various industries, highlighting its transformative impact and potential for future growth."
-            "The global AI in healthcare market is expected to grow from US$6.7 billion in 2021 to US$45.2 billion by 2026, at a CAGR of 46.2%. The increasing demand for personalized medicine, the need to reduce healthcare costs, and the availability of large data sets for machine learning are key drivers of this growth."
+            "AI-Med Models Ltd. is an Artificial Intelligence technology company based in the United Kingdom. We aim to develop artificial Intelligence in the field of medical sciences. Our team tirelessly works to create the most advanced, effective, innovative models."
+            "Those creative AI models generated enhance decision-making solutions by leveraging vast data to identify patterns and trends often invisible to humans."
+            "Our complex machine learning algorithms can analyze MRI, X-ray, ultrasonic, and other scans to diagnose illnesses like cancer and other serious diseases."
+            "Our innovative AI models can analyze these images and data, and pick up the signs of cancer which is very difficult to see with the human eye when the cancer first develops. Diagnosing cancers at an early stage is important as this increases the chance the cancer can be treated successfully with medications and treatments. As the cancer spreads it becomes more visible in scans. This is too late to start the treatments."
         ]
     )
     for word in response.split():
